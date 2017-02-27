@@ -1,15 +1,49 @@
+@font-face {
+    font-family: HalloSans;
+    src: url(../fonts/HalloSans.otf) format('truetype');
+}
+
+
+body {
+	background-color: #DFE0DC!important;
+}
+
+
+#title {
+	letter-spacing: 0.4em;
+	color: #351431;
+	padding-top: 3%;
+	font-family: 'HalloSans';
+	font-size: 3em;
+}
+
+#subtitle {
+	letter-spacing: 0.2em;
+	padding-top: 3%;
+	color: #351431;
+	font-family: 'HalloSans';
+	font-size: 2.5em;
+}
+
+
+
 #butdiv {
 	padding-top: 5%;
 }
 
 #container {
 	padding-top: 10%;
+	font-family: 'HalloSans';
+	font-style: italic;
+	font-size: 1.4em;
 }
-
-
 
 #button {
 	background-color: transparent;
 	border-color: transparent;
 	color: black;
+	font-family: 'HalloSans';
+	font-size: 2em;
+	outline: none;
 }
+
