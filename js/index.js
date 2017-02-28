@@ -64,6 +64,26 @@ var myQuotes = [
 	author: 'Marcus Aurelius'
 }, 
 
+{
+	quote:'"All cruelty springs from weakness."',
+	author:'Seneca'
+},
+
+{
+	quote:'"Freedom is the freedom to say that two plus two make four. If that is granted, all else follows."',
+	author: 'George Orwell'
+},
+
+{
+	quote: '"Wisdom cannot be imparted. Wisdom that a wise man attempts to impart always sounds like foolishness to someone else ... Knowledge can be communicated, but not wisdom. One can find it, live it, do wonders through it, but one cannot communicate and teach it."',
+	author: 'Hermann Hesse'
+},
+
+{
+	quote: '"It is not for me to judge another man life. I must judge, I must choose, I must spurn, purely for myself. For myself, alone."',
+	author: 'Hermann Hesse'
+}
+
 
 
 
