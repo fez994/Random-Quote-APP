@@ -91,18 +91,32 @@ var myQuotes = [
 
 ]; // end myquotes 
 
+var myQuote;
 
 
 // function for randomly displaying quotes 
 
 $('#button').click(function() {
 
-var myQuote = myQuotes[Math.floor(Math.random() * myQuotes.length)];
+ myQuote = myQuotes[Math.floor(Math.random() * myQuotes.length)];
 
 $('#container').html(myQuote.quote+" <br> -"+myQuote.author);
 
 
 });
+
+// Share on Twitter button
+
+$('#tweet').on('click', function(){
+	window.open("https://twitter.com/intent/tweet?text="+myQuote.quote);
+
+	
+ 
+    
+});
+
+
+
 
 
 
