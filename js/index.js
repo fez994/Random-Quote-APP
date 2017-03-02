@@ -38,14 +38,14 @@ var myQuotes = [
 
 
 {
-	quote: '"Strenght does not come from winning. Your struggles develop your strengths. When you go through hardships and decide not to surrender, that is strength."',
-	author: 'Arnold Schwarzenegger'
+	quote: '"Be as you wish to seem."',
+	author: 'Socrates'
 },
 
 
 {
-	quote: '"For me life is continuosly being hungry. The meaning of life is not simply to exist, to survive, but to move ahed, to go up, to achieve, to conquer."',
-	author: 'Arnold Schwarzenegger'
+	quote: '"Education is the most powerful weapon wich you can use to change the world."',
+	author: 'Nelson Mandela'
 
 }, 
 
@@ -75,8 +75,8 @@ var myQuotes = [
 },
 
 {
-	quote: '"Wisdom cannot be imparted. Wisdom that a wise man attempts to impart always sounds like foolishness to someone else ... Knowledge can be communicated, but not wisdom. One can find it, live it, do wonders through it, but one cannot communicate and teach it."',
-	author: 'Hermann Hesse'
+	quote: '"Pleasure in the job puts perfection in the work."',
+	author: 'Aristotle'
 },
 
 {
