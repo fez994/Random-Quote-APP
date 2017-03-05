@@ -56,3 +56,13 @@ body {
 	outline: none;
 	letter-spacing: 0.1em;
 }
+
+#footer {
+  padding-top: 15%;
+  color: black;
+  font-family: "HalloSans";
+  text-decoration: none;
+  outline: none; 
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+}
