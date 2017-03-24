@@ -27,3 +27,13 @@ CSS
 
 
 Javascript / jQuery
+
+
+
+
+
+
+
+
+This project is a part of the FCC Intermediate Front End Development Projects 
+Link to the project page : https://www.freecodecamp.com/challenges/build-a-random-quote-machine
