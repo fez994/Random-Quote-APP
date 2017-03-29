@@ -5,24 +5,36 @@
 
 
 body {
-	background-color: #DFE0DC!important;
+	background-color: background: #eacda3; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #eacda3 , #d6ae7b); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #eacda3 , #d6ae7b);
+	height: 100%;
+	width: 100%;
+	color: #351431; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+#hr {
+	
+	border: 1px solid #351431;
+	width: 25%;
+}
 
 #title {
-	letter-spacing: 0.4em;
+	letter-spacing: 0.3em;
 	color: #351431;
-	padding-top: 3%;
+	padding-top: 2%;
 	font-family: 'HalloSans';
 	font-size: 3em;
+	text-transform: uppercase;
 }
 
 #subtitle {
-	letter-spacing: 0.2em;
-	padding-top: 3%;
+	letter-spacing: 0.1em;
+	padding-top: 1%;
 	color: #351431;
 	font-family: 'HalloSans';
-	font-size: 2.5em;
+	font-size: 2em;
+	text-transform: uppercase;
 }
 
 
