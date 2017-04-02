@@ -100,7 +100,7 @@ $('#button').click(function() {
 
  myQuote = myQuotes[Math.floor(Math.random() * myQuotes.length)];
 
-$('#container').html(myQuote.quote+" <br> -"+myQuote.author);
+ $('#container').html(myQuote.quote+" <br> -"+myQuote.author).hide().fadeIn(300);
 
 
 });
@@ -109,15 +109,19 @@ $('#container').html(myQuote.quote+" <br> -"+myQuote.author);
 
 $('#tweet').on('click', function(){
 	window.open("https://twitter.com/intent/tweet?text="+myQuote.quote);
-
-	
- 
-    
 });
 
 
 
+// hover effects for the two buttons
+$('#button').hover(function() {
+	$(this).toggleClass('getBig');
+});
 
+
+$('#tweet').hover(function() {
+	$(this).toggleClass('getBigTwo');
+});
 
 
 
